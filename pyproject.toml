@@ -1,0 +1,33 @@
+[build-system]
+requires = ["scikit-build-core>=0.11,<2", "pybind11>=3,<4"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "staggerlab"
+version = "0.1.0"
+description = "Compatible staggered-grid pressure projection and periodic Stokes energy audits"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=1.26,<3", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-cov>=6,<8", "ruff>=0.11,<1", "build>=1,<2", "clang-format==23.1.1"]
+
+[project.scripts]
+staggerlab = "staggerlab.cli:main"
+
+[tool.scikit-build]
+wheel.packages = ["src/staggerlab"]
+cmake.build-type = "Release"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --basetemp=.pytest-tmp"
+
+[tool.ruff]
+line-length = 96
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
