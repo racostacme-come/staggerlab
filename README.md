@@ -261,3 +261,9 @@ Public conceptual references (not code sources):
   periodic Stokes integration is a narrower construction.
 
 MIT licensed. See [contribution and verification guidance](CONTRIBUTING.md).
+
+## Academic paper
+
+Read the [research note (PDF)](paper/paper.pdf), edit the [LaTeX source](paper/paper.tex),
+or follow the [compilation instructions](paper/README.md). The manuscript includes
+methods, measured validation, limitations, and references within five pages.
