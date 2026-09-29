@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "pages": 3,
+  "page_limit": 5,
+  "engine": "tectonic",
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "inputs_sha256": {
+    "paper/paper.tex": "8d0df374c75aad5554b9e0611c9fe05c974ac6cf772794b2db8b5a70ada1e6e3",
+    "paper/figure.pdf": "051c00bbd0dd0a383e1604c39d47aab64d0eb7629232f10087223d61721bce4d",
+    "paper/plot.py": "7a9ea55614df8ddc3b4577f1111bd0f1d4bf60bc8404f5aff0452ed9f28d8677",
+    "results/energy.csv": "66ee6268b07bd3de3da29b02e43052d3490480d9ad17d23288b7e65e065025a1",
+    "results/fields.csv": "4c4f57a79d7e796a585599e2f9460aa907f31942dec8f7bf2d58082fc0b63b1a",
+    "results/pressure_spectrum.csv": "630e3e21832ebf4b9dcb4dbf1a4ca630a310e718edb99782081e7cea80a55aef",
+    "results/spatial.csv": "a3f5551c39fc181cbb08e7858ec21bfc99114f138fab66e08c4ac86d808f1818",
+    "results/temporal.csv": "4762e97e27b1e1c2f8aae16925f3893a98fa245682edf39238dfc1fa7a0ce037",
+    "results/validation.json": "6beadd7dba2ab7b0e8ba683cc414e5dcde0cd117e4bc538c8a8e038e58dbecc3"
+  }
+}
